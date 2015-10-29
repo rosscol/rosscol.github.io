@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Ross</title>
+</head>
+<body>
+		<style>
+			body{
+				background-color: gray;
+			}
+			.header{
+				background-color: black;
+				color : white;
+
+			}
+			p {
+
+				color: #eee;
+			}
+		</style>
+	
+	<div class= "header">
+		<h1>&nbspHi</h1>
+		<p>Ross<br>20<br></p>	
+	
+	</div>
+
+</body>
+</html>

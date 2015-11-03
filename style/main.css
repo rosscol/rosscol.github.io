@@ -24,14 +24,12 @@ a{
 #twitter{
 	position: float;
 	right:19px;
-
 }
 
 #insta{
-	position:fixed;
-	top: -15px;
-	right: 19px;
-	margin-left: 75%;
+	 position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 .post{

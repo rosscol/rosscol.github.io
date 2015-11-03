@@ -1,12 +1,18 @@
+
 <html>
 <head>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<title>Ross</title>
 </head>
 <body>
 		<style>
 			body{
+				font-family: 'Lato', sans-serif;
 				padding-left: 10px;
-				background-color: gray;
+				    background: -webkit-linear-gradient(#43B0C5, #43B0AA); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#43B0C5, #43B0AA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#43B0C5, #43B0AA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#43B0C5, #43B0AA); /* Standard syntax (must be last) */;
 			}
 			.header{
 				
@@ -17,21 +23,48 @@
 
 				color: #efefef;
 			}
+			#twitter{
+						position: float;
+						right:19px;
+						
+						
+
+			}
+			#insta{
+						position:fixed;
+						top: -15px;
+    					right: 19px;
+						margin-left: 75%;
+			}
+
 
 		</style>
 	
 	<div class= "header">
 		<h1>Ross Colquhoun</h1>
-		<p>20<br>
-			Scotland<br>
-			Fife College<br>
-			Software Development<br>
-			<br>
-			<a href = "http://www.twitter.com/r0ss7" style="color: white">Twitter</a><br>
-			<a href = "http://www.facebook.com/ross.c7" style="color: white">Facebook</a><br>
+		<p>
 
-		</p>	
-	
+Hi i'm Ross.<br> I'm  20 years old and and from scotland.<br> I am currently computing software development student at Fife College.<br><br>
+			
+			<br>
+			<a href="rosscol.github.io/blog" style="color: white"> Blog</a><br>
+			<a href = "http://www.twitter.com/r0ss7" style="color: white">Twitter</a><br>
+			<a href = "http://www.facebook.com/ross.c7" style="color: white">Facebook</a>
+
+		</p>
+</div>
+
+<div id = "insta">
+	<p>My latest Instagram posts<br></p>
+
+	<!-- SnapWidget -->
+<iframe src="http://snapwidget.com/in/?u=cm9zcy5jb2x8aW58MTI1fDN8Mnx8bm98NXxub25lfG9uU3RhcnR8eWVzfG5v&ve=021115" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:390px; height:260px"></iframe>
+</div>
+
+<div id= "twitter">
+	<br><br><p>My latest Tweets</p>
+	<a class="twitter-timeline" href="https://twitter.com/R0SS7" data-widget-id="661314345436061696">Tweets by @R0SS7</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</div>
 
 </body>

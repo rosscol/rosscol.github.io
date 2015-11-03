@@ -1,0 +1,63 @@
+body{
+	font-family: 'Lato', sans-serif;
+	padding-left: 10px;
+	background: -webkit-linear-gradient(#43B0C5, #43B0AA); /* For Safari 5.1 to 6.0 */
+    			background: -o-linear-gradient(#43B0C5, #43B0AA); /* For Opera 11.1 to 12.0 */
+    			background: -moz-linear-gradient(#43B0C5, #43B0AA); /* For Firefox 3.6 to 15 */
+   				background: linear-gradient(#43B0C5, #43B0AA); /* Standard syntax (must be last) */;
+}
+.header{
+
+	color : white;
+
+}
+p {
+
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: white
+}
+
+#twitter{
+	position: float;
+	right:19px;
+
+}
+
+#insta{
+	position:fixed;
+	top: -15px;
+	right: 19px;
+	margin-left: 75%;
+}
+
+.post{
+	width:997px;
+	overflow:hidden;
+	margin:0 auto;
+	background-color:white;
+	padding:20px;
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(171,205,209,1);
+	-moz-box-shadow: 4px 4px 5px 0px rgba(171,205,209,1);
+	box-shadow: 4px 4px 5px 0px rgba(171,205,209,1);
+	margin-bottom: 70px;
+}
+
+.post > .img{
+	width:990px;
+	height:200px;
+	overflow:hidden;
+}
+
+.img > img {
+	width:100%;
+	margin-top:-250px;
+}
+
+.content{
+	color: black;
+}
+

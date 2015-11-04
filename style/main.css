@@ -23,8 +23,12 @@ p {
 	text-align: center;
 }
 
+.underline{
+	text-decoration:none;
+}
+
 a{
-	text-decoration: none;
+	
 	color: white
 }
 

@@ -15,6 +15,13 @@ p {
 
 	color: white;
 }
+.PostTitle{
+	color: #43B0C5;
+}
+.BlogHeading{
+	color: white;
+	text-align: center;
+}
 
 a{
 	text-decoration: none;
@@ -32,7 +39,8 @@ a{
     right: 0px;
 }
 
-.post{
+.LNPost{
+
 	width:997px;
 	overflow:hidden;
 	margin:0 auto;
@@ -40,19 +48,37 @@ a{
 	padding:20px;
 	-webkit-box-shadow: 4px 4px 5px 0px rgba(171,205,209,1);
 	-moz-box-shadow: 4px 4px 5px 0px rgba(171,205,209,1);
-	box-shadow: 4px 4px 5px 0px rgba(171,205,209,1);
+	box-shadow: 8px 8px 500px 8px rgba(171,205,209,1);
 	margin-bottom: 70px;
 }
 
-.post > .img{
-	width:990px;
-	height:200px;
+
+.LNPost > .img{
+	width:997px;
+	height:370px;
+	overflow:hidden;
+}
+.FoodPost{
+	width:997px;
+	overflow:hidden;
+	margin:0 auto;
+	background-color:white;
+	padding:20px;
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(171,205,209,1);
+	-moz-box-shadow: 4px 4px 5px 0px rgba(171,205,209,1);
+	box-shadow: 8px 8px 500px 8px rgba(171,205,209,1);
+	margin-bottom: 70px;
+}
+
+.FoodPost > .img{
+	width:997px;
+	height:350px;
 	overflow:hidden;
 }
 
 .img > img {
 	width:100%;
-	margin-top:-250px;
+	margin-top:0px;
 }
 
 .content{

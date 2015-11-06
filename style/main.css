@@ -88,4 +88,15 @@ a{
 .content{
 	color: black;
 }
-
+.FireworksPost{
+	width:1050px;
+	overflow:hidden;
+	margin:0 auto;
+	background-color:white;
+	padding:20px;
+	padding-right: -10px;
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(171,205,209,1);
+	-moz-box-shadow: 4px 4px 5px 0px rgba(171,205,209,1);
+	box-shadow: 8px 8px 500px 8px rgba(171,205,209,1);
+	margin-bottom: 70px;
+}
